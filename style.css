@@ -1,0 +1,246 @@
+body{
+   padding: 0;
+   margin: 0;
+   max-width: fit-content;
+}
+.bg-img{
+    
+    background-image: url('https://watermark.lovepik.com/photo/20211130/large/lovepik-business-elite-group-discussion-picture_501266757.jpg');
+    width: 1440px;
+    height: 600px;
+     
+ }
+.blur{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    -webkit-backdrop-filter: brightness(0.25);
+    z-index: 1;
+}
+nav{
+    width: 1440px;
+    padding: 20px 10%;
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+
+}
+nav ul li{
+    display: inline;
+    padding: 4px 20px;
+ 
+}
+ 
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+ }
+ nav ul li a button{
+    background-color: rgb(221, 173, 16);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+ }
+ .text-box h3{
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17pt;
+    word-spacing: 10px;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    z-index: 3;
+}
+.text-box h1{
+    color: #fff;
+    word-spacing: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+    position: absolute;
+    left: 8%;
+    top: 32%;
+    z-index: 3;
+}
+.text-box pre{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 2%; 
+    top: 41%;
+    z-index: 3;
+}
+.text-box button{
+    background-color: rgb(221, 173, 16);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    position: absolute;
+    left: 8%;
+    top: 53%; 
+    z-index: 4;
+}
+.box-1{
+    background-color:rgb(243, 194, 32) ;
+    width: 200px;
+    height: 73px;
+    z-index: 6;
+    position: absolute;
+}
+.box{
+    z-index: 5;
+    background-color: white;
+    width: 200px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 14%;
+}
+.box h1{
+    z-index: 5;
+    color:  rgb(247, 204, 64);
+    border-radius: 50px;
+    position: absolute;
+    left: 7%;
+    font-size: 26pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.box h4{
+    z-index: 5;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    top:25%;
+    left: 20%;
+    font-size: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:300px;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 50px; 
+
+      
+
+}
+.img-2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 50px; 
+ 
+   
+}
+.img-3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 50px; 
+}
+.img-4{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+ 
+}
+.btn-1{
+    background-color:rgb(243, 194, 32) ;
+    width: 160px;
+    height: 70px;
+    border-radius: 20px;
+    color:white;
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 110%;
+    left: 4%;
+}
+.btn-2{
+    background-color:rgb(243, 194, 32) ;
+    width: 160px;
+    height: 70px;
+    border-radius: 20px;
+    color:white;
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+}
+.btn-3{
+    background-color:rgb(243, 194, 32) ;
+    width: 160px;
+    height: 70px;
+    border-radius: 20px;
+    color:white;
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 110%;
+    left: 54%;
+}
+.btn-4{
+    background-color:rgb(243, 194, 32) ;
+    width: 160px;
+    height: 70px;
+    border-radius: 20px;
+    color:white;
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 110%;
+    left: 80%;
+}
+ 
+ 
